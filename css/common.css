@@ -50,6 +50,7 @@
     padding: 40px 0;
     font-size: 12px;
     color: #a2a0a3;
+    position: relative;
 }
 .w a{
     text-decoration: none;
@@ -101,4 +102,10 @@
 }
 .hezuo{
     width: 180px;
+}
+.q{
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
 }
