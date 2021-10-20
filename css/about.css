@@ -1,0 +1,87 @@
+.act{
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.left{
+    float: left;
+    width: 270px;
+    height: 300px;
+    padding: 25px 20px;
+    background-color: #f3f3f3;
+}
+.left h2{
+    padding-left: 5px;
+}
+.left>ul{
+    margin-top: 5px;
+    padding: 5px;
+    border-top: 1px solid #a3a3a3;
+}
+.left>ul>li:nth-of-type(2){
+    margin-top: 25px;
+}
+.left>ul>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.erji{
+    margin-left: 20px;
+}
+.erji li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* 右侧 */
+.right_box{
+    width: 700px;
+    height: 2000px;
+    float: right;
+    overflow: hidden;
+    
+}
+.right_1{
+    height: 2000px;
+    display: block;
+    position: absolute;
+}
+
+.right_1,.right_2{
+    
+    width: 700px;
+    overflow: hidden;
+    padding: 25px 20px;
+    background-color: #f3f3f3;
+}
+.right_2{
+    height: 800px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.right_1 h2,
+.right_2 h2{
+    padding-left: 5px;
+}
+.neirong{
+    margin-top: 5px;
+    padding: 5px;
+    border-top: 1px solid #a3a3a3;
+}
+.neirong h3{
+    padding: 15px 0;
+}
+.neirong p{
+    margin-top: 4px;
+    font-size: 14px;
+}
+.neirong h2{
+    padding: 25px 0;
+}
+.neirong span{
+    display: block;
+    margin-left: 20px;
+    font-size: 14px;
+}
