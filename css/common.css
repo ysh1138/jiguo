@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     background-color: #f7f7f7;
 }
@@ -7,53 +7,51 @@ body{
     height: 75px;
     border-bottom: 2px solid #cecece;
     background-color: white;
-=======
+
 .nav{
     width: 100%;
     height: 75px;
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
 }
 .w{
     width: 1000px;
     margin: 0px auto;
 }
-<<<<<<< HEAD
+
 .nav>.w>img{
-=======
+
 .w>img{
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
     height: 50px;
     margin-top: 10px;
     float: left;
 }
-<<<<<<< HEAD
+
 .nav>.w>ul{
-=======
+
 .w>ul{
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
     width: 450px;
     float: left;
     overflow: hidden;
     margin-left: 40px;
 }
-<<<<<<< HEAD
+
 .nav>.w>ul>li{
-=======
+
 .w>ul>li{
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
     float: left;
     height: 75px;
     padding: 0px 25px;
     line-height: 75px;
 }
-<<<<<<< HEAD
 .nav>.w>ul a{
     font-size: 16px;
     color: black;
-=======
+
 .w a{
     font-size: 16px;
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
 }
 .nav_right{
     float: right;
@@ -70,10 +68,7 @@ body{
     background-color: white;
     border-radius: 5px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
 /* 底部 */
 .footer{
     width: 100%;
@@ -83,15 +78,15 @@ body{
     font-size: 12px;
     color: #a2a0a3;
     position: relative;
-<<<<<<< HEAD
+
     margin-top: 25px;
 
 }
 .footer a{
-=======
+
 }
 .w a{
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
     text-decoration: none;
     color: #a2a0a3;
     display: block;
@@ -147,8 +142,8 @@ body{
     top: 330px;
     left: 50%;
     transform: translateX(-50%);
-<<<<<<< HEAD
+
 }
-=======
+
 }
->>>>>>> 2b417c1e01adea6efece10da3f607ec4fcfe2752
+
