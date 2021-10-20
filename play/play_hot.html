@@ -5,25 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <title>酷玩模块</title>
+    <!-- 引入初始化样式 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入公共样式文件 -->
+    <link rel="stylesheet" href="../css/common1.css">
+    <!-- 引入专有的样式文件 -->
+    <link rel="stylesheet" href="../css/play_hot.css">
 </head>
 
 <body>
     <div class="nav">
         <div class="w">
-            <img src="/img/logonew.png" alt="">
+            <img src="../img/logonew.png" alt="">
             <ul>
                 <li><a href="">首页</a></li>
                 <li><a href="">酷玩</a></li>
-                <li><a href="">导购</a></li>
+                <li><a href="../guid/guid_new.html">导购</a></li>
                 <li><a href="">试用</a></li>
                 <li><a href="">报告</a></li>
             </ul>
             <div class="nav_right">
                 <img src="../css/img/search.png" alt="">
                 <button>注册</button>
+            </div>
+        </div>
+    </div>
+    <!-- 主题渲染部分 -->
+    <div class="main">
+        <div class="tab_list">
+            <div class="w">
+                <h1>发现酷玩</h1>
+                <ul>
+                    <li><a href="./play_new.html">最新</a></li>
+                    <li class="current"><a href="./play_hot.html" class="red">最热</a></li>
+                    <li><a href="./play_class.html">品类</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab_con">
+            <div class="w">
+                <div class="item" style="display: block;">
+                    <ul class="item_list">
+                        <!-- <li>
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="icon">
+                                <h4>空气净化器</h4>
+                                <p>空气净化器里面学问多得惊</p>
+                                <div class="icon_xia">
+                                    <div class="ll">
+                                        <span>&yen; 1212</span>
+                                    </div>
+                                    <div class="rr">
+                                        <span>
+                                            <img src="../css/img/xin.png" alt="">
+                                        </span>
+                                        <span><img src="../css/img/reply.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                    <div class="jiazai">
+                        <img src="../css/img/more.png" alt=""> 点击加载更多
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -81,3 +127,4 @@
 </body>
 
 </html>
+<script src="../js/play_hot.js"></script>

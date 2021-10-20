@@ -1,0 +1,134 @@
+.nav ul li:nth-of-type(2)>a{
+    color: red;
+    }
+    .tab_list{
+    height: 173px;
+    text-align: center;
+    }
+    .tab_list h1{
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+    line-height: 120px;
+    }
+    .tab_list ul{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    }
+    .tab_list ul li{
+    width: 33.33%;
+    float: left;
+    line-height: 50px;
+    
+    }
+    .tab_list ul li a{
+    font-size: 16px;
+    }
+    .tab_list ul li .red{ 
+    color: red;
+    }
+    .tab_con{
+    overflow: hidden;
+    padding-top: 25px;
+    background-color: #f7f7f7;
+/*     padding-bottom: 50px; */
+    } 
+    .tab_list .current {
+    border-bottom: 3px solid red;
+    }
+.tab_con  .item{
+    height: 515px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 38px;
+}
+.tab_con  .item .item_shang{
+    height: 360px;
+    border-bottom: 1px dotted #ccc;
+}
+.tab_con  .item .item_shang .qq{
+    color: black;
+    text-indent: 1em;
+}
+.tab_con  .item .item_shang .qq::after{
+    content: '';
+    float: left;
+    width: 4px;
+    height: 18px;
+    background-color: red;
+}
+.item .item_shang ul{
+    margin-top: 33px;
+}
+.item .item_shang ul li{
+    float: left;
+    width: 123px;
+    height: 130px;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+}
+.item .item_shang ul li img{
+    width: 98px;
+    height: 98px;
+    margin-bottom: 10px;
+}
+.item .item_xia ul li{
+    float: left;
+    text-align: center;
+    width: 16.66%;
+    line-height: 35px;
+    height: 35px;
+}
+.item .item_xia a{
+    color: #666;
+}
+
+.tab_con  .item1{
+    height: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 38px;
+}
+.tab_con  .item1 .item1_shang{
+    height: 201px;
+    border-bottom: 1px dotted #ccc;
+}
+.tab_con  .item1 .item1_shang .qq{
+    color: black;
+    text-indent: 1em;
+}
+.tab_con  .item1 .item1_shang .qq::after{
+    content: '';
+    float: left;
+    width: 4px;
+    height: 18px;
+    background-color: red;
+}
+.item1 .item1_shang ul{
+    margin-top: 33px;
+}
+.item1 .item1_shang ul li{
+    float: left;
+    width: 123px;
+    height: 130px;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+}
+.item1 .item1_shang ul li img{
+    width: 98px;
+    height: 98px;
+    margin-bottom: 10px;
+}
+.item1 .item1_xia ul li{
+    float: left;
+    text-align: center;
+    width: 16.66%;
+    line-height: 35px;
+    height: 35px;
+}
+.item1 .item1_xia a{
+    color: #666;
+}

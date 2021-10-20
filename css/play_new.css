@@ -1,0 +1,134 @@
+.nav ul li:nth-of-type(2)>a{
+    color: red;
+}
+.tab_list{
+    height: 173px;
+    text-align: center;
+}
+.tab_list h1{
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+    line-height: 120px;
+}
+.tab_list ul{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+.tab_list ul li{
+    width: 33.33%;
+    float: left;
+    line-height: 50px;
+    
+}
+.tab_list ul li a{
+    font-size: 16px;
+}
+.tab_list ul li .red{
+    
+    color: red;
+}
+.tab_con{
+    overflow: hidden;
+    padding-top: 25px;
+    background-color: #f7f7f7;
+}
+.tab_con .item .item_list{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.tab_con .item .item_list li{
+    cursor: pointer;
+    float: left;
+    width: 223px;
+    height: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 36px;
+    margin-bottom: 20px;
+}
+.tab_con .item .item_list li:nth-child(4n){
+    margin-right: 0px;
+}
+.tab_con .item .item_list li img{
+    width: 223px;
+    height: 123px;
+}
+.item_list .icon{
+    width: 223px;
+    height: 112px;
+    padding: 5px;
+    background-color: #fff;
+}
+.item_list .icon h4{
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    line-height: 25px;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.icon_xia{
+    margin-top: 25px;
+}
+.icon_xia .ll{
+    float: left;
+}
+.icon_xia .ll span{
+    color: red;
+    font-size: 15px;
+}
+.icon_xia .rr{
+    float: right;
+}
+ .rr span:nth-child(1){
+    float: left;
+    width: 27px;
+    height: 16px;
+}
+.icon .icon_xia .rr span:nth-child(1)>img{
+    width: 12px;
+    height: 14px;
+}
+ .rr span:nth-child(2){
+    float: left;
+    width: 27px;
+    height: 16px;
+}
+.icon .icon_xia .rr span:nth-child(2)>img{
+    width: 12px;
+    height: 14px;
+}
+/*  .rr span:nth-child(1)::before{
+    content: '';
+    float: left;
+    width: 14px;
+    height: 16px;
+    background:url(./img/xin.png) no-repeat 1px 4px;
+}
+ .rr span:nth-child(2)::before{
+    content: '';
+    float: left;
+    width: 14px;
+    height: 16px;
+    background:url(./img/reply.png) no-repeat 1px 4px;
+} */
+.item .jiazai{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.item .jiazai img{
+    vertical-align: middle;
+}
+.item {
+    display: none;
+}
+.tab_list .current {
+    border-bottom: 3px solid red;
+}

@@ -1,0 +1,120 @@
+.nav ul li:nth-of-type(3)>a{
+    color: red;
+}
+.main{
+    background-color: #f7f7f7;
+    overflow: hidden;
+    padding-bottom: 26px;
+}
+.main .w a{
+    display: inline;
+}
+.main .aaaaa{
+    line-height: 50px;
+    color: #999;
+}
+.main .main_left{
+    overflow: hidden;
+    float: left;
+    width: 700px;
+    border: 1px solid #dddfde;
+    border-radius: 5px;
+    /* padding: 0 25px; */
+    background-color: #fff;
+}
+.main_left .shang1{
+    padding: 33px 25px 23px;
+    height: 125px;
+    border-bottom: 1px solid #dddfde;
+}
+.main_left .shang1>p{
+    font-size: 22px;
+    color: black;
+    margin-bottom: 10px;
+}
+.main_left .shang1 .lll{
+    position: relative;
+}
+.main_left .shang1 .lll::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background:url(./img/tx.jpg) no-repeat 2px 1px;
+    border-radius: 10px;
+
+}
+.main_left .shang1 .rrr{
+    float:right;
+}
+.main .main_right{
+    float: right;
+    width: 272px;
+    height: 110px;
+    background-color: #fff;
+    border: 1px solid #dddfde;
+    border-radius: 5px;
+}
+.main_right .ll{
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #dddfde;
+}
+.main_right .ll:hover .img{
+    background: url(./img/xinRedh.png) no-repeat;
+}
+.main_right .ll:hover>a{
+    color: red;
+}
+.main_right .ll .img{
+    width: 30px;
+    height: 26px;
+    background: url(./img/xinRedo.png) no-repeat;
+    margin: 28px 50px 10px 53px;
+}
+.main_right .rr{
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.main_right .rr:hover .img1{
+    background: url(./img/shareh_yj1.png) no-repeat;
+}
+.main_right .rr:hover>a{
+    color: red;
+}
+.main_right .rr .img1{
+    width: 30px;
+    height: 26px;
+    background: url(./img/share_yj1.png) no-repeat;
+    margin: 28px 50px 10px 53px;
+}
+
+.bb{
+    margin-top: 40px;
+}
+.bb span{
+    display: block;
+    color: #9d9cae;
+} 
+.main_left .xiaaa{
+    width: 100%;
+    padding: 25px 25px 42px;
+    background-color: #fff;
+}
+.main_left .xiaaa p{
+    color: black;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.main_left .xiaaa img{
+    margin: 10px 0;
+}
+.main_left .xiaaa h3{
+    text-align:center;
+    color: black;
+}
