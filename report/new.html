@@ -25,20 +25,6 @@
 
         }
         
-
-        .tab_report {
-            width: 300px;
-            margin: 20px 660px;
-            text-align: center;
-            font-size: 16px;
-
-        }
-
-        .tab_report li {
-            margin-left: 100px;
-            display: inline-block;
-        }
-
         .box {
             width: 100%;
             height: 2400px;
@@ -225,10 +211,25 @@
             background-image: url(../img/bg5.jpg);
             background-size: cover;
         }
-         .tab_report a{
-            margin-right: 100px;
+        .tab_report {
+            width: 304px;
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
+            font-size: 16px;
         }
-       
+        .tab_report a{
+             display: block;
+             width: 150px;
+            float: left;
+            padding: 15px 0;
+            /* margin-right: 100px; */
+            font-size: 18px;
+            text-align: center;
+        }
+       .a{
+           border-bottom: 3px solid red;
+        }
     </style>
 </head>
 
@@ -237,15 +238,15 @@
         <div class="w">
             <img src="../img/logonew.png" alt="">
             <ul>
-                <li><a href="">首页</a></li>
-                <li><a href="">酷玩</a></li>
-                <li><a href="">导购</a></li>
-                <li><a href="">试用</a></li>
-                <li><a href="">报告</a></li>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../play/play_new.html">酷玩</a></li>
+                <li><a href="../guid/guid_new.html">导购</a></li>
+                <li><a href="../use/public.html">试用</a></li>
+                <li><a href="./new.html">报告</a></li>
             </ul>
             <div class="nav_right">
                 <img src="../css/img/search.png" alt="">
-                <button>注册</button>
+                <button><a href="../regist.html">注册</a></button>
             </div>
         </div>
     </div>
@@ -253,7 +254,7 @@
         <h1>体验报告</h1>
         <div class="tab_report">
                 <a href='new.html' class="a">最新</a>
-                <a href="hot.html" class="a">最热</a>
+                <a href="hot.html">最热</a>
         </div>
     </div>
 
@@ -386,7 +387,7 @@
 
                 </div>
 
-            </div> -->
+            </div>
         
            
 </body>
