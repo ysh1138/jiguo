@@ -5,42 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/regist.css">
+    <title>酷玩模块</title>
+    <!-- 引入初始化样式 -->
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 引入公共样式文件 -->
+    <link rel="stylesheet" href="../css/common1.css">
+    <!-- 引入专有的样式文件 -->
+    <link rel="stylesheet" href="../css/play_hot.css">
 </head>
 
 <body>
     <div class="nav">
         <div class="w">
-            <img src="./img/logonew.png" alt="">
+            <img src="../img/logonew.png" alt="">
             <ul>
                 <li><a href="">首页</a></li>
-                <li><a href="../play/play_new.html">酷玩</a></li>
+                <li><a href="">酷玩</a></li>
                 <li><a href="../guid/guid_new.html">导购</a></li>
                 <li><a href="">试用</a></li>
                 <li><a href="">报告</a></li>
             </ul>
             <div class="nav_right">
-                <img src="./css/img/search.png" alt="">
-                <button><a href="../regist.html">注册</a></button>
-            </div>
-        </div>
-    </div>
-    <div class="regist">
-        <div class="w">
-            <span>注册极果</span>
-            <div class="form">
-                <input type="text" placeholder="请输入登录手机号"><span></span><br>
-                <input type="text" placeholder="请输入图片校验码">
-                <img src="./img/imgCode.jpg" alt=""><span></span><br>
-                <input type="text" placeholder="请输入4位数字验证码">
-                <button>获取验证码</button><span></span><br>
-                <input type="text" placeholder="请输入用户名"><span></span><br>
-                <input type="password" placeholder="请输入新密码"><span></span><br>
-                <input type="password" placeholder="确定新密码"><span></span><br>
-                <input type="submit" value="立即注册">
+                <img src="../css/img/search.png" alt="">
+                <button>注册</button>
             </div>
         </div>
     </div>
@@ -48,10 +35,11 @@
     <div class="main">
         <div class="tab_list">
             <div class="w">
-                <h1>导航清单</h1>
+                <h1>发现酷玩</h1>
                 <ul>
-                    <li><a href="./guid_new.html">最新</a></li>
-                    <li class="current"><a href="./guid_hot.html" class="red">最热</a></li>
+                    <li><a href="./play_new.html">最新</a></li>
+                    <li class="current"><a href="./play_hot.html" class="red">最热</a></li>
+                    <li><a href="./play_class.html">品类</a></li>
                 </ul>
             </div>
         </div>
@@ -60,21 +48,23 @@
                 <div class="item" style="display: block;">
                     <ul class="item_list">
                         <!-- <li>
-                         <div class="kuang1"></div>
-                         <div class="kuang2"></div>
-                         <img src="../img/bg1.jpg" alt="" class="yuan">
-                         <div class="icon">
-                             <h4>花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到</h4>
-                             <div class="icon_xia">
-                                 <div class="rr">
-                                     <span>
-                                         <img src="../css/img/xin.png" alt="">
-                                     </span>
-                                     <span><img src="../css/img/reply.png" alt=""></span>
-                                 </div>
-                             </div>
-                         </div>
-                     </li> -->
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class="icon">
+                                <h4>空气净化器</h4>
+                                <p>空气净化器里面学问多得惊</p>
+                                <div class="icon_xia">
+                                    <div class="ll">
+                                        <span>&yen; 1212</span>
+                                    </div>
+                                    <div class="rr">
+                                        <span>
+                                            <img src="../css/img/xin.png" alt="">
+                                        </span>
+                                        <span><img src="../css/img/reply.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> -->
                     </ul>
                     <div class="jiazai">
                         <img src="../css/img/more.png" alt=""> 点击加载更多
@@ -86,15 +76,15 @@
     <div class="footer">
         <div class="w">
             <div class="ewm">
-                <img src="./img/code.png" alt="">
+                <img src="../img/code.png" alt="">
             </div>
             <div class="jianjiie">
-                <img src="./img/logoImg.jpg" alt="">
+                <img src="../img/logoImg.jpg" alt="">
                 <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
                 <p> 微信添加"JguoJguo"获取我们的服务。</p>
             </div>
             <div class="free">
-                <a href="./about.html"><h3>免费试用</h3></a>
+                <h3>免费试用</h3>
                 <a href="">试用流程</a>
                 <a href="">如何提高成功率</a>
             </div>
@@ -125,7 +115,7 @@
                 <a href="">indiegogo 众筹购买攻略</a>
             </div>
             <div class="hezuo">
-                <a href="./about.html"><h3>厂商合作</h3></a>
+                <h3>厂商合作</h3>
                 <a href="">关于极果</a>
                 <a href="">联系我们</a>
                 <a href="">商务合作：BD@jiguo.com</a>
@@ -137,8 +127,4 @@
 </body>
 
 </html>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/regist.js"></script>
-<script>
-    sub();
-</script>
+<script src="../js/play_hot.js"></script>

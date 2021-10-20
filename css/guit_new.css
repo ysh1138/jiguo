@@ -1,0 +1,152 @@
+
+.nav ul li:nth-of-type(3)>a{
+    color: red;
+}
+.tab_list{
+    height: 173px;
+    text-align: center;
+}
+.tab_list h1{
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+    line-height: 120px;
+}
+.tab_list ul{
+    width: 320px;
+    height: 50px;
+    margin: 0 auto;
+}
+.tab_list ul li{
+    width: 50%;
+    float: left;
+    line-height: 50px;
+    
+}
+.tab_list ul li a{
+    font-size: 16px;
+}
+.tab_list ul li .red{
+    
+    color: red;
+}
+.tab_con{
+    overflow: hidden;
+    padding-top: 25px;
+    background-color: #f7f7f7;
+}
+.tab_con .item .item_list{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.tab_con .item .item_list li{
+    cursor: pointer;
+    float: left;
+    width: 223px;
+    height: 235px;
+    border-radius: 5px;
+    margin-right: 36px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.tab_con .item .item_list li .yuan{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tab_con .item .item_list li .kuang1{
+    overflow: auto;
+    position: absolute;
+    bottom: -5px;
+    left:12px;
+    width: 200px;
+    height: 5px;
+    background-color: #fff;
+    /* z-index: 100; */
+    border-bottom: 1px solid #dddfde;
+    border-left: 1px solid #dddfde;
+    border-right: 1px solid #dddfde;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.tab_con .item .item_list li .kuang2{
+    overflow: auto;
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    width: 180px;
+    height: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #dddfde;
+    border-left: 1px solid #dddfde;
+    border-right: 1px solid #dddfde;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.tab_con .item .item_list li:nth-child(4n){
+    margin-right: 0px;
+}
+.tab_con .item .item_list li img{
+    width: 223px;
+    height: 123px;
+}
+.item_list .icon{
+    width: 223px;
+    height: 112px;
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #dddfde;
+    border-left: 1px solid #dddfde;
+    border-right: 1px solid #dddfde;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.item_list .icon h4{
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    line-height: 25px;
+}
+.icon_xia{
+    margin-top: 25px;
+}
+
+.icon_xia .rr{
+    position: absolute;
+    bottom: 15px;
+    right: 2px;
+}
+ .rr span:nth-child(1){
+    float: left;
+    width: 27px;
+    height: 16px;
+}
+.icon .icon_xia .rr span:nth-child(1)>img{
+    width: 12px;
+    height: 14px;
+}
+ .rr span:nth-child(2){
+    float: left;
+    width: 27px;
+    height: 16px;
+}
+.icon .icon_xia .rr span:nth-child(2)>img{
+    width: 12px;
+    height: 14px;
+}
+.item .jiazai{
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.item .jiazai img{
+    vertical-align: middle;
+}
+.item {
+    display: none;
+}
+.tab_list .current {
+    border-bottom: 3px solid red;
+}
